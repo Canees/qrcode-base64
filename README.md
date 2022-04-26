@@ -6,7 +6,7 @@
 
 ### exp:
 
-    const QR = require('./utils/weapp-qrcode')
+    const QR = require('./utils/qrcode_base64')
     const base64 = QR.drawImg(content, {
       version: 1, //最大40
       errorCorrectLevel: 'M',
